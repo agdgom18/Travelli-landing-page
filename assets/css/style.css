@@ -39,7 +39,76 @@ h6 {
 }
 
 /* Begin work here */
+
+/* Testimonial section */
+.testimonials {
+  padding: 110px 0;
+}
+
+.testimonials__subtitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #0a7777;
+  margin-bottom: 60px;
+}
+
+.testimonials__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 69px;
+  max-width: 609px;
+  margin-bottom: 30px;
+}
+.testimonial__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testimonial__card {
+  position: relative;
+  box-shadow: -2px 7px 14px -3px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: -2px 7px 14px -3px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: -2px 7px 14px -3px rgba(0, 0, 0, 0.53);
+  padding: 0 20px;
+  max-width: 245px;
+  z-index: 1;
+  text-align: center;
+  border-radius: 35px 35px 0px 0px;
+}
+
+.card__bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.card__avatar {
+  z-index: 999;
+  position: relative;
+  margin-bottom: 30px;
+  top: 31px;
+  left: -3%;
+}
+
+.testimonial__card-title {
+  font-family: 'Inter';
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  margin: 0 auto;
+}
+.testimonial__card-desc {
+  margin: 10px 0 15px;
+  font-size: 12px;
+  line-height: 15px;
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
 /* Proposal section */
+
 .proposal {
   padding: 70px 0 140px;
   text-align: center;
