@@ -1,0 +1,476 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1512px;
+}
+
+/*
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+
+About Us Section */
+
+/* Section images */
+
+.section-about-us {
+  margin: 100px 171px 318px 171px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 230px;
+}
+
+.section-images {
+  position: relative;
+}
+
+.img-big {
+  width: 370px;
+  height: 676px;
+}
+
+.img-small {
+  width: 298px;
+  height: 470px;
+  position: absolute;
+  top: 306px;
+  left: 202px;
+}
+
+/* Section Text */
+
+.section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  align-items: flex-start;
+}
+
+.head-text {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+  color: #0a7777;
+  margin-bottom: 60px;
+}
+
+h2 {
+  font-family: "Istok Web", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 69.09px;
+  color: #000000;
+  margin-bottom: 80px;
+}
+
+.main-paragraph {
+  font-family: "Istok Web", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34.55px;
+  margin-bottom: 80px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 50px;
+}
+
+.num1,
+.num2,
+.num3,
+.num4 {
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60.51px;
+  color: #0a7777;
+}
+
+.p1,
+.p2,
+.p3,
+.p4 {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+}
+
+/* Tour packages section
+///////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
+*/
+
+.Tour-packages {
+  margin: 106px 171px 76px 171px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Tour-packages-head-text {
+  margin-bottom: 70px;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+  color: #0a7777;
+}
+
+.Tour-packages-container h2 {
+  font-family: "Istok Web", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 69.09px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 93px;
+}
+
+.card {
+  display: flex;
+  background-color: rgba(217, 217, 217, 0.3);
+  border-radius: 13px;
+  flex-direction: column;
+  padding: 19px 25px 25px 25px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 321.44px;
+  height: 239.94px;
+  border-radius: 13px;
+  margin-bottom: 32px;
+}
+
+h4 {
+  margin-bottom: 32px;
+  font-family: "Istok Web", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34.55px;
+}
+
+.cards-container p {
+  font-family: "Istok Web", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34.55px;
+  color: #0a7777;
+}
+
+.Tour-packages-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card1 {
+  position: relative;
+}
+
+.card1 p::after {
+  content: "10 DAYS TOUR";
+  font-family: "Istok Web", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #a8a8a8;
+  position: absolute;
+  left: 184px;
+  bottom: 33px;
+}
+
+.card2 {
+  position: relative;
+}
+
+.card2 p::after {
+  content: "12 DAYS TOUR";
+  font-family: "Istok Web", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #a8a8a8;
+  position: absolute;
+  left: 184px;
+  bottom: 33px;
+}
+
+.card3 {
+  position: relative;
+}
+
+.card3 p::after {
+  content: "7 DAYS TOUR";
+  font-family: "Istok Web", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #a8a8a8;
+  position: absolute;
+  left: 184px;
+  bottom: 33px;
+}
+
+/*
+/////////////////////////////////////////////////////
+/////////////////////////////////////////////////////
+/////////////////////////////////////////////////////
+
+Responsive */
+
+@media (max-width: 468px) {
+  body {
+    width: 468px;
+  }
+
+  /*
+/////////////////////////////////////////////////////
+/////////////////////////////////////////////////////
+/////////////////////////////////////////////////////
+
+About Us Section*/
+
+  .section-about-us {
+    margin: 60px 0px 100px 0px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .section-images {
+    position: relative;
+  }
+
+  .img-big {
+    width: 120px;
+    height: auto;
+  }
+
+  .img-small {
+    width: 90px;
+    height: auto;
+    position: absolute;
+    left: 60px;
+    top: 110px;
+  }
+
+  .section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    align-items: flex-start;
+  }
+
+  .head-text {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 10.05px;
+    color: #0a7777;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-family: "Istok Web", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.09px;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+
+  .main-paragraph {
+    font-family: "Istok Web", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 10.55px;
+    margin-bottom: 20px;
+  }
+
+  .features {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 12px;
+    column-gap: 13px;
+  }
+
+  .num1,
+  .num2,
+  .num3,
+  .num4 {
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15.51px;
+    color: #0a7777;
+  }
+
+  .p1,
+  .p2,
+  .p3,
+  .p4 {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 10.2px;
+  }
+
+  /*
+/////////////////////////////////////////////////////
+/////////////////////////////////////////////////////
+/////////////////////////////////////////////////////
+
+Tour Packages Section*/
+
+  .Tour-packages {
+    margin: 56px 10px 76px 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Tour-packages-head-text {
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 10.05px;
+    color: #0a7777;
+  }
+
+  .Tour-packages-container h2 {
+    font-family: "Istok Web", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17.09px;
+    margin-bottom: 20px;
+  }
+
+  .cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-bottom: 45px;
+  }
+
+  .card {
+    display: flex;
+    background-color: rgba(217, 217, 217, 0.3);
+    border-radius: 13px;
+    flex-direction: column;
+    padding: 5px 7px 7px 7px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .card img {
+    width: 120px;
+    height: auto;
+    border-radius: 13px;
+    margin-bottom: 15px;
+  }
+
+  h4 {
+    margin-bottom: 15px;
+    font-family: "Istok Web", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 8.55px;
+  }
+
+  .cards-container p {
+    font-family: "Istok Web", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12.55px;
+    color: #0a7777;
+  }
+
+  .Tour-packages-dots {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+  }
+
+  .Tour-packages-dots img {
+    width: 8px;
+    height: auto;
+  }
+
+  .card1 {
+    position: relative;
+  }
+
+  .card1 p::after {
+    content: "10 DAYS TOUR";
+    font-family: "Istok Web", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 8px;
+    color: #a8a8a8;
+    position: absolute;
+    left: 64px;
+    bottom: 10px;
+  }
+
+  .card2 {
+    position: relative;
+  }
+
+  .card2 p::after {
+    content: "12 DAYS TOUR";
+    font-family: "Istok Web", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 8px;
+    color: #a8a8a8;
+    position: absolute;
+    left: 64px;
+    bottom: 15px;
+  }
+
+  .card3 {
+    position: relative;
+  }
+
+  .card3 p::after {
+    content: "7 DAYS TOUR";
+    font-family: "Istok Web", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 15px;
+    color: #a8a8a8;
+    position: absolute;
+    left: 64px;
+    bottom: 10px;
+  }
+}
